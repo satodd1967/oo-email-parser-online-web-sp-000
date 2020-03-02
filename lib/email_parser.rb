@@ -23,7 +23,7 @@ class EmailAddressParser
     @@all.join(",").split(" ")
   end
   
-  
+  EmailAddressParser.new("avi@test.com, arel@test.com")
 
 binding.pry  
 end
