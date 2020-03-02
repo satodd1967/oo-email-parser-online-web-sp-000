@@ -22,6 +22,8 @@ class EmailAddressParser
   def parse
     @@all.join(",").split(" ")
   end
+  
+  
 
 binding.pry  
 end
