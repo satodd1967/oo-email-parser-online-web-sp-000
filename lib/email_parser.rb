@@ -23,5 +23,5 @@ class EmailAddressParser
     @@all.join(",").split(" ")
   end
 
-#binding.pry  
+binding.pry  
 end
