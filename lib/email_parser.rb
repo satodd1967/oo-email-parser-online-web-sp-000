@@ -18,7 +18,7 @@ class EmailAddressParser
     @list.split(",").join(" ").split(" ")
   end
 
-binding.pry
+#binding.pry
 
 #EmailAddressParser.new("avi@test.com, arel@test.com").parse
 end
