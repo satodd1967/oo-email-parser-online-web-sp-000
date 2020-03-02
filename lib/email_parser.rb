@@ -12,11 +12,6 @@ class EmailAddressParser
   
   def initialize(list)
     @list = list
-    @@all << list
-  end
-  
-  def self.all
-    @@all
   end
   
   def parse
