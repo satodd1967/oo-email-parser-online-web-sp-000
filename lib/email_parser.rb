@@ -21,6 +21,7 @@ class EmailAddressParser
   
   def parse
     @@all.join(",").split(" ")
+    @@all
   end
   
   EmailAddressParser.new("avi@test.com, arel@test.com")
